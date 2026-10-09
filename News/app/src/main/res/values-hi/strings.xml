@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">समाचार</string>
+    <string name="action_refresh">रीफ्रेश करें</string>
+    <string name="action_category">श्रेणी</string>
+    <string name="action_about">ऐप के बारे में</string>
+    <string name="select_category">श्रेणी चुनें</string>
+    <string name="about_title">ऐप के बारे में</string>
+    <string name="about_message">API का उपयोग करने वाला एक सरल समाचार रीडर।</string>
+    <string name="ok">ठीक है</string>
+    <string name="refreshing">समाचार रीफ्रेश हो रहे हैं...</string>
+    <string name="read_more">और पढ़ें</string>
+    <string name="share">शेयर करें</string>
+    <string name="share_via">इसके माध्यम से शेयर करें</string>
+    <string name="error_load">समाचार लोड नहीं हो सके। इंटरनेट कनेक्शन जाँचें और फिर प्रयास करें।</string>
+    <string name="error_empty">कोई समाचार नहीं मिला।</string>
+    <string name="no_description">कोई विवरण उपलब्ध नहीं है।</string>
+    <string name="no_link">इस लेख के लिए कोई लिंक उपलब्ध नहीं है।</string>
+
+    <string-array name="category_names">
+        <item>सामान्य</item>
+        <item>व्यापार</item>
+        <item>मनोरंजन</item>
+        <item>स्वास्थ्य</item>
+        <item>विज्ञान</item>
+        <item>खेल</item>
+        <item>प्रौद्योगिकी</item>
+    </string-array>
+</resources>
