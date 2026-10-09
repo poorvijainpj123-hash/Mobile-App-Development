@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.News" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/amber_500</item>
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.News" parent="Base.Theme.News" />
+</resources>

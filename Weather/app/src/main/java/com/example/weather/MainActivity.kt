@@ -51,14 +51,10 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Please enter a city name", Toast.LENGTH_SHORT).show()
             return
         }
-        hideKeyboard()
         fetchWeather(city)
     }
 
-    private fun hideKeyboard() {
-        val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
-        imm.hideSoftInputFromWindow(binding.cityInput.windowToken, 0)
-    }
+
 
     private fun fetchWeather(city: String) {
         showLoading()
